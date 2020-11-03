@@ -1,0 +1,132 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url(hopesoft.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    padding: 15px 100px;
+    float: left;
+}
+
+.navbar ul{
+    float: right;
+    padding: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: rgb(0, 162, 255);
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section{
+
+}
+
+section h1{
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+
+section p{
+    color: white;
+    font-size: 25px;  
+    width: 900px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(27, 27, 27);
+}
+h1 span{
+    color: rgb(33, 128, 201);
+}
+#team{
+    background-position: center;
+}
+
+.container h1{
+    color: black;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.6em;
+}
+.row{
+    display: flex;
+    margin: 10px;
+    
+}
+.profile-pic{
+    margin: 15px;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+}
+
+.profile-pic h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: black;
+    text-align: justify;
+}
+.profile-pic p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+    text-align: left;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
